@@ -2648,3 +2648,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 #footer {
   background-color: #e6f7ff;
+  
+.logo-flex {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.quill-img {
+  width: 50px !important;
+  height: auto;
+  display: inline-block;
+  flex-shrink: 0;
+}
